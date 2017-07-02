@@ -1,0 +1,24 @@
+{
+  "name": "promise-from-callback",
+  "version": "0.1.3",
+  "description": "Plugin for promisifying Node.js style callbacks into Promises",
+  "main": "promise-from-callback.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g6123/promisify.git"
+  },
+  "keywords": [
+    "promise",
+    "async",
+    "callback"
+  ],
+  "author": "cumul <gg6123@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g6123/promisify/issues"
+  },
+  "homepage": "https://github.com/g6123/promisify#readme"
+}
