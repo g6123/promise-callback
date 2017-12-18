@@ -16,7 +16,7 @@ const fs = require('fs');
 require('promise-from-callback');
 
 Promise
-  .fromCallback(callback => fs.readFile('filename.txt'))
+  .fromCallback(callback => fs.readFile('filename.txt', callback))
   .then(buffer => buffer.toString().trim())
   .fromCallback((filename, callback) => fs.readFile(filename, callback))
   // ...
